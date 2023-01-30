@@ -1,10 +1,10 @@
-import InitAddRelation from './libs/addRelation.js';
-import InitResultTab from './libs/showResults.js';
+import initRelations from './libs/relations.js';
+import initResult from './libs/result.js';
 
 const Init = () => {
     const initFunctions = {
-        InitAddRelation,
-        InitResultTab
+        initRelations,
+        initResult
     };
     for (const key in initFunctions) {
         const func = initFunctions[key];

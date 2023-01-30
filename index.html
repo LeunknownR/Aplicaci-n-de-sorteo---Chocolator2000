@@ -15,7 +15,8 @@
 	<body>
 		<header id="header-main">
 			<div class="title">
-				<span class="iconify" data-icon="twemoji:chocolate-bar"></span>			<h1>Chocolator2000</h1>
+				<iconify-icon icon="twemoji:chocolate-bar"></iconify-icon>
+				<h1>Chocolator2000</h1>
 			</div>
 		</header>
 		<main>
@@ -26,20 +27,24 @@
 							<div class="part1">
 								<h3>Agrega la primera relación</h3>
 								<button class="btn-add-member">
-									<span class="iconify" data-icon="carbon:add-filled"></span>
+									<iconify-icon icon="material-symbols:library-add-rounded"></iconify-icon>
 								</button>
 							</div>
 							<div class="part2">
 								<button class="btn-delete-relation">
-									<span class="iconify" data-icon="ep:document-delete"></span>
+									<iconify-icon icon="ep:document-delete"></iconify-icon>
 								</button>
 								<div class="dialog-confirm">
-									<header>
-										<span>¿Está seguro de eliminar todo?</span>
-									</header>
+									<h4>¿Deseas eliminar toda la lista</h4>
 									<footer>
-										<button class="confirm-yes">Sí</button>
-										<button class="confirm-no">No</button>
+										<button class="confirm-btn confirm-yes">
+											<iconify-icon icon="material-symbols:check-circle"></iconify-icon>
+											<span>Sí</span>
+										</button>
+										<button class="confirm-btn confirm-no">
+											<iconify-icon icon="gridicons:cross-circle"></iconify-icon>
+											<span>No</span>
+										</button>
 									</footer>
 								</div>
 							</div>
@@ -52,20 +57,24 @@
 							<div class="part1">
 								<h3>Agrega la segunda relación</h3>
 								<button class="btn-add-member">
-									<span class="iconify" data-icon="carbon:add-filled"></span>
+									<iconify-icon icon="material-symbols:library-add-rounded"></iconify-icon>
 								</button>
 							</div>
 							<div class="part2">
 								<button class="btn-delete-relation">
-									<span class="iconify" data-icon="ep:document-delete"></span>
+									<iconify-icon icon="ep:document-delete"></iconify-icon>
 								</button>
 								<div class="dialog-confirm">
-									<header>
-										<span>¿Está seguro de eliminar todo?</span>
-									</header>
+									<h4>¿Deseas eliminar toda la lista</h4>
 									<footer>
-										<button class="confirm-yes">Sí</button>
-										<button class="confirm-no">No</button>
+										<button class="confirm-btn confirm-yes">
+											<iconify-icon icon="material-symbols:check-circle"></iconify-icon>
+											<span>Sí</span>
+										</button>
+										<button class="confirm-btn confirm-no">
+											<iconify-icon icon="gridicons:cross-circle"></iconify-icon>
+											<span>No</span>
+										</button>
 									</footer>
 								</div>
 							</div>
@@ -75,10 +84,8 @@
 					</section>
 				</article>
 				<button id="btn-raffle">
-					<span>Sortear</span>
-					<span 
-						class="iconify" 
-						data-icon="bi:arrow-down-circle-fill"></span>
+					<iconify-icon icon="icon-park-outline:cycle"></iconify-icon>
+					<span>Chocolatear</span>
 				</button>
 			</section>
 			<section class="section-content" id="section-results">
@@ -91,7 +98,7 @@
 					</article>
 				</section>
 				<button id="btn-back">
-					<span class="iconify" data-icon="entypo:back"></span>
+					<iconify-icon icon="entypo:back"></iconify-icon>
 				</button>
 			</section>
 		</main>
@@ -99,7 +106,7 @@
 			<h5>© Desarrollado por Leunknown (Manuel Rivera)</h5>
 		</footer>
 		<!-- Scripts here -->
-		<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+		<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 		<script type="module" src="./public/scripts/index.js"></script>
 	</body>
 </html>
