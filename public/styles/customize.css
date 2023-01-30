@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500&display=swap');
-/* 
-AMARILLO 1 - #ffff00
-
-AMARILLO 2 - #ffff56
-
-AMARILLO 3 - #ffff81
-
-ANARANJADO 1 - #ff961e
-
-MARRÓN 1 - #8d4925
-
-MARRÓN 2 - #b16c47
-
-OSCURO 1 - #2c2c2c
-*/
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700;800&display=swap');
+:root {
+    --red-1: #FF4A4A;
+    --light-1: #FFFFFF;
+    --gray-1: #A1A1A1;
+    --gray-2: #D3D3D3;
+    --gray-3: #939393;
+    --dark-1: #3C3C3C;
+    --dark-2: #555555;
+    --dark-3: #252525;
+    --green-1: #61E961;
+    --blue-1: #4E5FFF;
+    --blue-2: #9296FF;
+    --yellow-1: #FFD336;
+}
 
 * {
     box-sizing: border-box;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Oxanium', cursive;
 }
 
 body {
@@ -33,7 +32,7 @@ body {
     height: 15px;
 }
 *::-webkit-scrollbar-thumb {
-    background-color: #252525;
+    background-color: var(--dark-3);
     border-radius: 5px;
 }
 *::-webkit-scrollbar-track {
